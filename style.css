@@ -5,7 +5,7 @@
 
 .store{
     width: 100%;
-    height: 200vh;
+    height: 300vh;
     background:linear-gradient(120deg, #1b2838, #2a475e);
 }
 
@@ -254,7 +254,7 @@ flex-direction: row;
 }
 
 .gamebox{
-  width: 200px;
+  width: 400px;
   height: 250px;
   background-color: #171a21;
 }
@@ -270,4 +270,83 @@ flex-direction: row;
   font-size: 1.3rem;
  margin-left: 20px;
  
+}
+
+
+.sidebar{
+  color: #66c0f4;
+  margin-left: 200px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+.sidebar h2{
+font-size: 13px;
+color: white;
+width: 250px;
+text-transform: uppercase;
+}
+
+.sidebar a{
+  color: #66c0f4;
+  text-transform: capitalize;
+font-size: 13px;
+}
+
+
+
+.container{
+  display: flex;
+margin-top: 50px;
+}
+
+.w3-section, .w3-code{
+  margin-top: 200px;
+}
+
+.game-container{
+  margin-left: 50px;
+}
+
+
+.gallery {
+display: flex;
+margin-top: 20px;
+}
+
+
+
+.gallery__img--1 {
+  width: 250px;
+  height: 301px;
+  margin: 2px;
+}
+
+.gallery__img--2 {
+  width: 300px;
+  height: 150px;
+  margin: 1px;
+}
+.gallery__img--3 {
+  width: 300px;
+  height: 150px;
+  margin: 1px;
+}
+.gallery__img--4 {
+  width: 250px;
+  height: 302px;
+ margin: 1px;
+}
+
+
+
+.top-games{
+gap: 5px;
+display: flex;
+flex-direction: row;
+}
+.bottomgames{
+display: flex;
+flex-direction: column;
 }
